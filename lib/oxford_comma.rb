@@ -1,5 +1,10 @@
 def oxford_comma(array)
-my_arr = []
-new_arr = my_arr.join(" and ")
+  if array.size == 1 
+    return array[0]
+  
+  elsif array.size == 2 
+    return array.join(" and ")
+  else 
+    
 
 end
